@@ -2,10 +2,12 @@
 
 A [babel macro](https://github.com/kentcdodds/babel-plugin-macros) that helps you import antd's style.
 
+Based on [yesmeck/antd.macro](https://github.com/yesmeck/antd.macro).
+
 ## Installation
 
 ```bash
-$ npm install antd.macro --save-dev
+$ npm install antd-working.macro --save-dev
 ```
 
 ## Usage
@@ -29,9 +31,9 @@ Create a [babel-plugin-macros config file](https://github.com/kentcdodds/babel-p
 // babel-plugin-macros.config.js
 module.exports = {
   antd: {
-    style: 'less' // default is 'css',
+    style: 'less', // default is 'css',
   },
-}
+};
 ```
 
 ## What's the difference with babel-plugin-import?
